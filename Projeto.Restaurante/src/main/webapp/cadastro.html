@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    
+</head>
+
+ <header>
+
+    <div id= "title">
+        <h1>Perola</h1>
+       <h1> do atlantico </h1>
+      </div>
+      <ul>
+        <a href ="index.html"><li>inicio</li></a>
+<a href ="#"><li>Sobre</li></a>
+<a href ="#"><li>Cardapio</li></a>
+<a href ="#"><li>Contatos</li></a>
+ <a href ="login.html"><li>Login</li></a>
+      </ul>
+    </header>
+    
+        
+   
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+             background-color:rgb(65,105,225);
+  color:white;
+  max-width:1200px;
+  margin: 0 auto;
+  padding:15px;
+        }
+      header{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+}
+      #title{
+  flex-direction:column;
+  line-height:10px;
+}
+li{
+  display:inline-block;
+  margin:20px;
+}
+a{
+  color:white;
+}
+a:hover{
+  color:rgb(132,14,201);
+  transition:0.3s all;
+}
+#increva-se -btn{
+  border: 2px solid rgb(132,14,201);
+  padding:10px;
+  border-radius:15px;
+}
+#increva-se -btn:hover{
+  background-color:rgb(132,14,201);
+  color:white;
+}
+h1{
+  font-weight:200;
+}
+p{
+  line-height:20px;
+  max-width:500px;
+}
+         #form-criar{
+            width: 200px;
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 70px;
+            border-radius: 20px;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.8);
+         }
+         #form-criar input{
+         width: 100%;
+         margin-bottom: 15px;
+         border-radius: 05%;
+         padding: 15px;
+         border: none;
+         outline: none;
+         font-size: 15px;
+         }
+         #form-criar button{
+            background-color: #4CAF50;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5;
+            color: #fff;
+         
+         }
+         #form-criar button:hover{
+            background-color: #3e8e41;
+         }
+
+
+  </style>
+
+
+   
+
+
+ <body>
+    
+   <main>
+     <form id="form-criar"action="http://localhost:8080/Projeto.Restaurante/login.html">
+         <h2>Crie uma Conta</h2><br><br>
+          
+         
+            <input type="text" placeholder="Nome">
+            <br><br>
+                    
+
+            
+           
+            <input type="cpf" placeholder="CPF">
+            <br><br>
+   
+          
+            
+            <input type="endereco" placeholder="Endereço">
+            <br><br>
+        
+         
+             <input type="email" placeholder="Email">
+             <br><br>
+
+         
+                
+             <input type="telefone" placeholder="telefone">
+             <br><br>
+
+         
+           
+             <input type="password" placeholder="Senha">
+             <br><br>
+            <button>Cadastrar</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <footer>
+                <p>&copy; 2024 - Restaurante</p>
+            </footer>
+
+     </form>
+
+    </main>
+
+</body>
+    
+
+   
+    
+
+</html>
+
+
+

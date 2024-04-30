@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+  
+  </head>
+  <body>
+    <header>
+      <div id= "title">
+        <h1>Perola</h1>
+       <h1> do atlantico </h1>
+      </div>
+      <ul>
+        <a href ="index.html"><li>inicio</li></a>
+<a href ="#"><li>Sobre</li></a>
+<a href ="cardapio.html"><li>Cardapio</li></a>
+<a href ="#"><li>Contatos</li></a>
+ <a href ="#" id="increva-se - btn" ><li>Login</li></a>
+      </ul>
+    </header>
+    <style>
+        body {
+             background-color:rgb(65,105,225);
+  color:white;
+  max-width:1200px;
+  margin: 0 auto;
+  padding:15px;
+        }
+      header{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+}
+      #title{
+  flex-direction:column;
+  line-height:10px;
+}
+li{
+  display:inline-block;
+  margin:20px;
+}
+a{
+  color:white;
+}
+a:hover{
+  color:rgb(132,14,201);
+  transition:0.3s all;
+}
+#increva-se -btn{
+  border: 2px solid rgb(132,14,201);
+  padding:10px;
+  border-radius:15px;
+}
+#increva-se -btn:hover{
+  background-color:rgb(132,14,201);
+  color:white;
+}
+h1{
+  font-weight:200;
+}
+p{
+  line-height:20px;
+  max-width:500px;
+}
+        
+        #form-login {
+            width: 200px;
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 70px;
+            border-radius: 20px;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        #form-login h2 {
+            color: #fff;
+            text-decoration: none;
+        }
+        #form-login label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        #form-login input[type="email"],
+        #form-login input[type="password"] {
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+        }
+        #form-login button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #form-login button[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+        #form-login p {
+            margin-top: 10px;
+        }
+        #form-login a {
+            color: #fff;
+            text-decoration: none;
+        }
+        #form-login a:hover {
+            text-decoration: underline;
+        }
+        #form-footer {
+            
+            color: #fff;
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+ 
+    <main>
+       
+        <form id="form-login">
+            <h2>Faça Login</h2>
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="campo">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+            <button type="submit">Entrar</button>
+            <p>
+            <button type="submit">Cozinha</button>
+              <a href="file:///F:/Esqueceu a senha.html">Esqueceu a senha?</a></p>
+            <p>Faça seu cadastro <a href="cadastro.html">aqui</a>.</p>
+            <br>
+            <br>
+            <footer>
+                <p>&copy; 2024 - Restaurante</p>
+            </footer>
+        </form>
+    </main>
+    
+</body>
+</html>
